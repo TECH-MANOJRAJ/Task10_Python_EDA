@@ -1,0 +1,21 @@
+EDA Findings – Task 10
+
+1. The dataset contains multiple features related to student performance such as math, reading, and writing scores.
+
+2. Basic exploration using shape, info, and head helped understand the structure and data types of the dataset.
+
+3. Descriptive statistics showed the range, mean, and distribution of numeric columns.
+
+4. Missing value percentage was calculated and no major missing values were found in key score columns.
+
+5. Histogram and boxplot of math score revealed the distribution and presence of extreme values.
+
+6. Outliers were detected using the IQR (Interquartile Range) method.
+
+7. An outlier flag column was created to identify records with outlier values.
+
+8. Outliers were handled using the capping method instead of removing them to avoid losing useful information.
+
+9. Correlation matrix showed strong positive correlation between math score, reading score, and writing score.
+
+10. The cleaned dataset was exported successfully for further analysis or modeling.
